@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+body {
+	
+}
+.topnav{
+	overflow: hidden;
+	background-color:gray;
+}
+.topnav a {
+	float: left;
+	color: green;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+.topnav  a:HOVER {
+	background-color: yellow;
+	color: gray;
+}
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
